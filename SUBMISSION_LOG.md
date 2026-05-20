@@ -14,7 +14,7 @@
 
 ### Commit History Spread Across the Day
 
-![Commit History](screenshots/commits.PNG)
+![Commit History](.github/screenshots/commits.PNG)
 
 *Screenshot showing commits spread across multiple hours on May 20, 2026*
 
@@ -32,13 +32,13 @@
 
 ### Screenshot of Closed Issues
 
-![Closed Issues](screenshots/all 5 issues closed.PNG)
+![Closed Issues](.github/screenshots/all 5 issues closed.PNG)
 
 ---
 
 ## 3. GitHub Profile Contribution Graph
 
-![Green Squares Graph](screenshots/contribution graph.PNG)
+![Green Squares Graph](.github/screenshots/contribution graph.PNG)
 
 *Shows activity during exam period (May 20, 2026)*
 
@@ -47,10 +47,10 @@
 ## 4. Peer Review Evidence
 
 ### PR #10 – CSS Refactor
-![Peer Review PR #10](screenshots/peer review 1.PNG)
+![Peer Review PR #10](.github/screenshots/peer review 1.PNG)
 
 ### PR #8 – Resource Count Display
-![Peer Review PR #8](screenshots/peer review 2.PNG)
+![Peer Review PR #8](.github/screenshots/peer review 2.PNG)
 
 ---
 
