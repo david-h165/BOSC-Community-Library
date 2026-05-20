@@ -14,7 +14,7 @@
 
 ### Commit History Spread Across the Day
 
-![Commit History](.github/screenshots/commits.PNG)
+![Commit History](screenshots/commits.PNG)
 
 *Screenshot showing commits spread across multiple hours on May 20, 2026*
 
@@ -32,13 +32,13 @@
 
 ### Screenshot of Closed Issues
 
-![Closed Issues](.github/screenshots/all 5 issues closed.PNG)
-
+![Closed Issues](screenshots/all%205%20issues%20closed.PNG)
 ---
 
 ## 3. GitHub Profile Contribution Graph
 
-![Green Squares Graph](.github/screenshots/contribution graph.PNG)
+![Green Squares Graph](screenshots/contribution%20graph.PNG)
+
 
 *Shows activity during exam period (May 20, 2026)*
 
@@ -47,10 +47,43 @@
 ## 4. Peer Review Evidence
 
 ### PR #10 – CSS Refactor
-![Peer Review PR #10](.github/screenshots/peer review 1.PNG)
+![Peer Review PR #1](screenshots/peer%20review%201.PNG)
 
 ### PR #8 – Resource Count Display
-![Peer Review PR #8](.github/screenshots/peer review 2.PNG)
+![Peer Review PR #2](screenshots/peer%20review%202.PNG)
+Note: Spaces in filenames are replaced with %20
+
+Step 3 – Commit changes
+Commit message: fix: use %20 for spaces in screenshot filenames
+
+Step 4 – Preview
+Click SUBMISSION_LOG.md → "Preview" tab
+
+Screenshots should now appear.
+
+✅ If still not showing
+Use raw GitHub URLs:
+
+Go to screenshots/commits.PNG
+
+Click the file
+
+Click "Raw" button
+
+Copy the URL (starts with https://raw.githubusercontent.com/...)
+
+Use that full URL in SUBMISSION_LOG.md
+
+Example:
+
+markdown
+![Commit History](https://raw.githubusercontent.com/david-h165/BOSC-Community-Library/main/screenshots/commits.PNG)
+Reply: "Screenshots showing now – ready to submit" when done! 🎉
+
+
+
+### PR #8 – Resource Count Display
+![Peer Review PR #2](screenshots/peer%20review%202.PNG)
 
 ---
 
