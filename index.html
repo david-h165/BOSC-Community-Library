@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOSC Community Library</title>
     <style>
+        #resourceCount { 
+    color: #7f8c8d; 
+    font-size: 14px; 
+    margin: 10px 0; 
+    font-style: italic;
+}
         select {
     padding: 8px;
     margin: 10px 0;
@@ -35,7 +41,9 @@
     <option value="oss">Open Source</option>
     <option value="security">Cybersecurity</option>
 </select>
-
+    
+<br><br>
+<div id="resourceCount">Showing 5 of 5 resources</div>
     <div id="resourcesContainer"></div>
 
     <script>
@@ -48,7 +56,7 @@
             { title: "Cybersecurity Basics", category: "security", url: "https://example.com/security", description: "Protect your digital life" }
         ];
 
-               function filterByCategory() {
+                       function filterByCategory() {
             const category = document.getElementById('categoryFilter').value;
             let filtered;
             if (category === 'all') {
@@ -58,6 +66,12 @@
             }
             displayResources(filtered);
         } 
+               function updateCount(displayed, total) {
+            const countElement = document.getElementById('resourceCount');
+            if (countElement) {
+                countElement.textContent = `Showing ${displayed} of ${total} resources`;
+            }
+        }
         function displayResources(resourcesToShow) {
             const container = document.getElementById('resourcesContainer');
             container.innerHTML = '';
@@ -74,13 +88,13 @@
                 `;
                 container.appendChild(div);
             }
+            updateCount(resourcesToShow.length, resources.length);
+        
         }
-
-               function searchResources() {
+        function searchResources() {
             const query = document.getElementById('searchInput').value.trim().toLowerCase();
             const category = document.getElementById('categoryFilter').value;
             
-            // Filter by category first
             let categoryFiltered;
             if (category === 'all') {
                 categoryFiltered = resources;
@@ -88,7 +102,6 @@
                 categoryFiltered = resources.filter(r => r.category === category);
             }
             
-            // Then filter by search query
             let filtered;
             if (query === '') {
                 filtered = categoryFiltered;
@@ -100,8 +113,9 @@
             }
             displayResources(filtered);
         }
+          
 
-        function resetSearch() {
+              function resetSearch() {
             document.getElementById('searchInput').value = '';
             document.getElementById('categoryFilter').value = 'all';
             displayResources(resources);
