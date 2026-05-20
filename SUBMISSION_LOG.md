@@ -14,9 +14,9 @@
 
 ### Commit History Spread Across the Day
 
-![Commit History](screenshots/commit-history.png)
+![Commit History](screenshots/commits.PNG)
 
-*Screenshot showing commits spread across multiple hours*
+*Screenshot showing commits spread across multiple hours on May 20, 2026*
 
 ---
 
@@ -32,28 +32,25 @@
 
 ### Screenshot of Closed Issues
 
-![Closed Issues](screenshots/closed-issues.png)
+![Closed Issues](screenshots/all 5 issues closed.PNG)
 
 ---
 
 ## 3. GitHub Profile Contribution Graph
 
-![Green Squares Graph](screenshots/green-squares.png)
+![Green Squares Graph](screenshots/contribution graph.PNG)
 
-*Shows activity during exam period*
+*Shows activity during exam period (May 20, 2026)*
 
 ---
 
 ## 4. Peer Review Evidence
 
-### Pull Request #1 – Broken link
-![Peer Review PR #1](screenshots/peer-review-pr1.png)
+### PR #10 – CSS Refactor
+![Peer Review PR #10](screenshots/peer review 1.PNG)
 
-### Pull Request #3 – Category filter
-![Peer Review PR #3](screenshots/peer-review-pr3.png)
-
-### Pull Request #9 – CSS refactor
-![Peer Review PR #9](screenshots/peer-review-pr9.png)
+### PR #8 – Resource Count Display
+![Peer Review PR #8](screenshots/peer review 2.PNG)
 
 ---
 
@@ -71,6 +68,7 @@ All required files are present:
 - [x] `SUSTAINABILITY.md`
 - [x] `PROPOSAL_TO_MINISTRY.md`
 - [x] `REFLECTION_JOURNAL.md`
+- [x] `SUBMISSION_LOG.md`
 - [x] `index.html`
 - [x] `styles.css`
 
@@ -80,12 +78,19 @@ All required files are present:
 
 - [x] Public GitHub repository created
 - [x] Professional structure with templates
-- [x] License and legal analysis
+- [x] License (Apache 2.0) and legal analysis
 - [x] 5 issues created and resolved with branches and PRs
-- [x] Peer review comments added
-- [x] Sustainability model and government proposal
-- [x] Reflective journal on governance
-- [x] Screenshots attached
+- [x] Peer review comments added to each PR
+- [x] Sustainability model (Red Hat vs Foundation)
+- [x] Government proposal with TCO analysis
+- [x] Reflective journal on governance and hostile forks
+- [x] Screenshots attached (commits, closed issues, green squares, peer reviews)
+
+---
+
+## 7. Exam Completion Statement
+
+I hereby confirm that this submission is my own work. All code and documentation have been created following open source best practices. The commit history shows activity spread across the exam period, with proper branching, pull requests, and peer review simulations.
 
 ---
 
