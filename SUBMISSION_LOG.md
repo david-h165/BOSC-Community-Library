@@ -1,12 +1,12 @@
 # Submission Log – BOSC Community Library Exam
 
-**Student Name:** David H165
+**Student Name:**BAHATI DAVID AARON
 
 **GitHub Repository:** https://github.com/david-h165/BOSC-Community-Library
 
-**Exam Period:** May 20, 2026
+**Exam Period:** May 14, 2026
 
-**Registration Number:** [Your Reg Number]
+**Registration Number:** 23/BCC/BU/R/0013
 
 ---
 
