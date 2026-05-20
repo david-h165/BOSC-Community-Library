@@ -77,7 +77,7 @@
         }
 
                function searchResources() {
-            const query = document.getElementById('searchInput').value.toLowerCase();
+            const query = document.getElementById('searchInput').value.trim().toLowerCase();
             const category = document.getElementById('categoryFilter').value;
             
             // Filter by category first
