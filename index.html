@@ -89,8 +89,8 @@
                 filtered = categoryFiltered;
             } else {
                 filtered = categoryFiltered.filter(r => 
-                    r.title.toLowerCase().includes(query) || 
-                    r.description.toLowerCase().includes(query)
+                    r.title.toLowerCase().includes(query.trim()) || 
+                    r.description.toLowerCase().includes(query.trim())
                 );
             }
             displayResources(filtered);
